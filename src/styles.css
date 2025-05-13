@@ -1,0 +1,96 @@
+/* Midterm React CSS */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@400;500&display=swap");
+/* Abril Fatface font */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f6f3;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.app-container {
+  text-align: left;
+  max-width: 600px;
+  width: 100%;
+  margin-top: 40px; 
+}
+
+h1 {
+  text-align: center;
+  color: #3c3937;
+  margin-bottom: 20px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 3em;
+}
+
+.list-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.item-list {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0; /* Remove default padding */
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  background-color: #fff; 
+  color: #164483; /* blue text */
+  border: 2px solid #164483; /* blue outline */
+  padding: 6px 8px;
+  border-radius: 5px;
+  margin: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+  background-color: #164483; /* blue bg on hover */
+  color: #fff; /* white text on hover */
+}
+
+.completed {
+  text-decoration: line-through; /* strikethrough for completed items */
+  color: #ccc;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+input[type="number"] {
+  width: 50px; 
+  padding: 5px; 
+  border-radius: 5px; /* rounded corners */
+  border: 1px solid #ccc; 
+}
